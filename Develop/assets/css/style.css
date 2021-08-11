@@ -199,6 +199,4 @@ footer {
     text-align: center;
 }
 
-footer h2 {
-    font-size: 20px;
-}
+/* Removed footer h2 style after replacing the h2 element with h3 instead */
