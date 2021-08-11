@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Removed unnecessary header class*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +21,12 @@ header h1 {
     font-size: 48px;
 }
 
-header h1 .seo {
+/* Removed unnecesary seo class since there is only one <span> */
+header span {
     color: #d9dcd6;
 }
 
+/* Replaced <div> with semantic <nav> */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -188,13 +191,14 @@ p {
     font-size: 36px;
 }
 
-.footer {
+/* Removed unnecessary footer class and replaced with footer semantic */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
