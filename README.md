@@ -4,3 +4,5 @@ Refactored Horiseon Website that follows accessibility standards for search engi
 ## HTML Changes
 
 [Screenshot of website](./horiseon-screenshot.png)
+
+<img src="./horiseon-screenshot.png" />
