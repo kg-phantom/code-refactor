@@ -45,7 +45,6 @@ In the original HTML, there was a great lack of semantic elements; only general 
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
     </footer>
-
-    ```
+```
 
 <img src="./horiseon-screenshot.png" />
