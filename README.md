@@ -84,3 +84,5 @@ After the accessibility of the HTML has been improved, the styles come next. Whi
 
 
 <img src="./horiseon-screenshot.png" />
+
+See the new [Horiseon site](https://kg-phantom.github.io/) for yourself!
