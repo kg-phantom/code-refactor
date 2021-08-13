@@ -88,10 +88,61 @@ For example, there are navigation links at the top of the webpage that allow the
 ```
 
 ## CSS Changes
-After the accessibility of the HTML has been improved, the styles come next. While the website appears to look fine on the surface regarding the styling, a closer look at the CSS file reveals so much room for consolidation.
+After the accessibility of the HTML has been improved, the styles come next. While the website appears to look fine on the surface regarding the styling, a closer look at the CSS file reveals so much room for consolidation and efficiency.
 
+### Organization
+It would be confusing and difficult to find certain elements within the CSS if there was no order, so moving around the element styles in the CSS to match the order of elements - especially semantic elements - in the HTML makes navigating the files easier.
 
+Other than the order of the elements, the CSS can also be better organized by making comments for each style section's beginning and end:
+
+```css
+/* BENEFIT SECTION STYLES */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-info {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-info h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-info img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* BENEFIT SECTION STYLES END */
+```
+
+### Consolidating Styles
+In the original CSS, there were also many instances of unnecessary classes and duplicate code for multiple elements. For example, there were three different id elements with their own blocks of styles. However, these styles were exactly the same for all three of these elements, so using one selector for all of those three elements would be more efficient and save more space:
+
+```css
+/* Consolidated Info Section styles under the same selector instead of having duplicate code for each article */
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+```
+
+After improving the HTML and CSS files to be more efficient, neat, and organized, the site still looks the same as it did originally. However, these behind-the-scenes adjustments will provide better accessibility, search engine optimization, and long-term sustainability.
+
+Below is a screenshot of the improved website, or you can go to the new [Horiseon site](https://kg-phantom.github.io/) for yourself!
 
 <img src="./horiseon-screenshot.png" />
-
-See the new [Horiseon site](https://kg-phantom.github.io/) for yourself!
