@@ -78,6 +78,15 @@ Without a title, how would people know what site they are on or what kind of inf
 </head>
 ```
 
+### Functioning Links
+Other than meeting accessibility standards, the elements on the website should also function correctly.
+
+For example, there are navigation links at the top of the webpage that allow the user to quickly navigate to different sections of the site. One of the links was not working because the id for that section of the webpage was missing. Adding in that id for that section quickly fixes that problem:
+
+```html
+<article id="search-engine-optimization">
+```
+
 ## CSS Changes
 After the accessibility of the HTML has been improved, the styles come next. While the website appears to look fine on the surface regarding the styling, a closer look at the CSS file reveals so much room for consolidation.
 
