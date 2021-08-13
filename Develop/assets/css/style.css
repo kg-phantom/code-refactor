@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* HEADER STYLES */
 /* Removed unnecessary header class*/
 header {
     padding: 20px;
@@ -43,6 +44,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* HEADER STYLES END */
 
 a {
     color: #ffffff;
@@ -62,22 +64,14 @@ p {
     background-position: center;
 }
 
-/* Moved content styles up before float classes to match the order of the HTML */
+/* CONTENT INFO STYLES */
+/* Moved content styles up to match the order of the HTML */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
 /* Moved Info Section styles up before the Benefits Section to match the order of the HTML */
 /* Consolidated Info Section styles under the same selector instead of having duplicate code for each article */
@@ -95,12 +89,24 @@ p {
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 /* Consolidated Content h2 elements under the same selector */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* CONTENT INFO STYLES END */
 
+/* BENEFIT SECTION STYLES */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -130,6 +136,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/* BENEFIT SECTION STYLES END */
 
 /* Removed unnecessary footer class and replaced with footer semantic */
 footer {
