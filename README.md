@@ -1,6 +1,10 @@
 #  Horiseon Website Code Refactor
 Refactored Horiseon Website that follows accessibility standards for search engine optimization.
 
+Below is a screenshot of the improved website, or you can go to the new [Horiseon site](https://kg-phantom.github.io/) for yourself!
+
+<img src="./horiseon-screenshot.png" />
+
 ## HTML Changes
 In order for the site to be optimized for search engines, it needs a codebase that meets accessibility standards, which includes:
 
@@ -142,7 +146,3 @@ In the original CSS, there were also many instances of unnecessary classes and d
 ```
 
 After improving the HTML and CSS files to be more efficient, neat, and organized, the site still looks the same as it did originally. However, these behind-the-scenes adjustments will provide better accessibility, search engine optimization, and long-term sustainability.
-
-Below is a screenshot of the improved website, or you can go to the new [Horiseon site](https://kg-phantom.github.io/) for yourself!
-
-<img src="./horiseon-screenshot.png" />
